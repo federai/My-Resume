@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  margin: 0;
+  margin-top: 3%;
+  margin-left: 8%;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.container .foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .foto img {
+  width: 70%;
+  border-radius: 50%;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.welcome {
+  font-family: "Cormorant", serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hello {
+  font-size: 5rem;
+}
+
+.me {
+  font-size: 2.5rem;
+}
+
+.container-circles {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+}
+
+.myresume {
+  background-color: red;
+  height: 23.77vh;
+  width: 11.25vw;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+}
+
+.work {
+  background-color: lightblue;
+  height: 23.77vh;
+  width: 11.25vw;
+  border-radius: 50%;
+  color: black;
+  font-size: 20px;
+}
+
+.skills {
+  background-color: yellowgreen;
+  height: 23.77vh;
+  width: 11.25vw;
+  border-radius: 50%;
+  color: black;
+  font-size: 20px;
+}
+
+.myresume:hover {
+  background-color: rgba(255, 2, 2, 0.733);
+}
+
+.work:hover {
+  background-color: rgba(173, 216, 230, 0.733);
+}
+
+.skills:hover {
+  background-color: rgba(154, 205, 50, 0.733);
+}
+
+.title {
+  text-align: center;
+}
+
+.logo {
+  width: 20%;
+  margin-right: 4%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.resume {
+  margin-left: 13%;
+  font-family: "Cormorant", serif;
+  font-size: 2vw;
+}
+
+.container-education {
+  margin: 1% 8%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 2fr 2fr 1.5fr;
+      grid-template-columns: 2fr 2fr 2fr 2fr 1.5fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  -webkit-column-gap: 5%;
+          column-gap: 5%;
+  font-family: "Cormorant", serif;
+      grid-template-areas: "uni uni uni uni  as";
+}
+
+.uni {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: uni;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4fr;
+      grid-template-columns: 1fr 4fr;
+  margin: 5% 0;
+  margin-left: 4%;
+  width: 100%;
+  font-size: 20px;
+}
+
+.uni-time {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 0% 2%;
+  border-radius: 50%;
+  height: 26.42vh;
+}
+
+.uni-time p {
+  padding: 25%;
+}
+
+.uni-xp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 3%;
+  margin-top: 2%;
+  border-top: 1px solid grey;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  margin-bottom: 4%;
+}
+
+.uni-xp h1 {
+  margin-top: 2%;
+}
+
+.courses {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  padding-left: 3%;
+}
+
+.courses ul li h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+p {
+  font-weight: 500;
+}
+
+.aside {
+  margin-top: 40%;
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: as;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  border-left: 2px solid grey;
+}
+
+.aside ul {
+  list-style-type: none;
+}
+
+.aside .skills-list h2 {
+  margin-top: 10%;
+}
+
+.skills-list ul {
+  margin: 25% 0%;
+}
+
+.languages h2 {
+  margin-top: 10%;
+}
+
+.languages ul {
+  margin: 25% 0%;
+}
+/*# sourceMappingURL=style.css.map */
